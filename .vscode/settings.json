@@ -1,0 +1,9 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[rust]": {
+    "editor.defaultFormatter": "statiolake.vscode-rustfmt",
+    "editor.formatOnSave": true
+  },
+  "cargo.automaticCheck": false // if rust-analyzer is installed
+}

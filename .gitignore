@@ -1,8 +1,10 @@
 # Node
 node_modules
-
-## Turbo
 .turbo
+dist
 
 # Cargo
 target
+
+# Misc
+.DS_Store

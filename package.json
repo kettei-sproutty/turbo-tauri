@@ -3,8 +3,16 @@
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
-  "workspaces": [],
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "author": "Alessio Marchi<65831826+kettei-sproutty@users.noreply.github.com>",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "format": "prettier --write . && cargo fmt"
+  },
   "devDependencies": {
     "prettier": "^3.2.5",
     "turbo": "^1.12.5"

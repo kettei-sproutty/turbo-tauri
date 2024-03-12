@@ -1,0 +1,19 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.2",
+    "vite": "^5.1.6"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.5.3"
+  }
+}
